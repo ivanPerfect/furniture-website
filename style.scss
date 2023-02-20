@@ -4,7 +4,7 @@
     overflow-x: hidden;
 }
 header {
-    background-image: url("./img/bgc.jpg");
+    background-image: url("./img/bgc1.jpg");
     background-size: 100%;
     height: 600px;
     background-repeat: no-repeat;
@@ -24,14 +24,14 @@ header {
             font-size: 17px;
             margin: 10px 30px 10px 10px;
             a {
-                color: black;
+                color: white;
                 text-decoration: none;
                 
             }
             a:hover {
-                color: white;
+                color: rgb(226, 232, 134);
                 cursor: pointer;
-                border-bottom: 1px solid white;
+                border-bottom: 1px solid rgb(226, 232, 134);
             }
         }
     }
@@ -39,6 +39,7 @@ header {
         text-align: center;
         align-items: center;
         color: white;
+        text-shadow: rgb(0, 0, 0) 1px 0 20px;
         position: relative;
         left: 22%;
         letter-spacing: 0.8px;
@@ -50,13 +51,17 @@ header {
         color: white;
         text-align: center;
         align-items: center;
+        text-shadow: rgb(0, 0, 0) 1px 0 20px;
         margin-top: 30px;
         width: 600px;
         position: relative;
         left: 31%;
         letter-spacing: 0.8px;
+    } 
+    img {
+        width: 150px;
+        height: 150px;
     }
-    
 }
 .line {
     position: relative;
@@ -64,4 +69,21 @@ header {
     border-bottom: 3px solid rgb(226, 232, 134);
     width: 200px;
     height: 20px;
+}
+.preference {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    div {
+        width: 300px;
+        height:200px;
+        p {
+            width: 200px;
+            color: white;
+            letter-spacing: 0.3em;
+            text-align: center;
+            margin-left: 20px;
+        }
+    }
 }
