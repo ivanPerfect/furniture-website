@@ -2,6 +2,8 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
 }
 header {
     background-image: url("./img/bgc1.jpg");
@@ -41,9 +43,9 @@ header {
         color: white;
         text-shadow: rgb(0, 0, 0) 1px 0 20px;
         position: relative;
-        left: 22%;
+        left: 19%;
         letter-spacing: 0.8px;
-        width: 900px;
+        width: 1000px;
         font-size: 45px;
         margin-top: 50px;
     }
@@ -57,10 +59,6 @@ header {
         position: relative;
         left: 31%;
         letter-spacing: 0.8px;
-    } 
-    img {
-        width: 150px;
-        height: 150px;
     }
 }
 .line {
@@ -70,20 +68,102 @@ header {
     width: 200px;
     height: 20px;
 }
-.preference {
+main { 
+    margin-bottom: 100px;
+    h1 {
+        text-align: center;
+        align-items: center;
+        color: black;
+        position: relative;
+        left: 21%;
+        letter-spacing: 0.8px;
+        width: 900px;
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    h2 { 
+        text-align: center;
+        align-items: center;
+        color: black;
+        position: relative;
+        letter-spacing: 0.8px;
+        left: 15%;
+        width: 1200px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .production {
+        display: flex;
+        margin-left: 235px;
+        margin-top: 50px;
+        p {
+            width: 500px;
+            font-size: 17px;
+            margin-right: 34px;
+            letter-spacing: 1.5px;
+        }
+        img {
+            width: 600px;
+            height: 450px;
+            position: absolute;
+        }
+    }
+    .bgc {
+        width: 600px;
+        height: 450px;
+        background-color: rgb(255, 180, 40);
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+}
+.section1 {
+    background-image: url('./img/kitchen2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    h1 {
+        text-align: center;
+        align-items: center;
+        color: black;
+        position: relative;
+        left: 21%;
+        letter-spacing: 0.8px;
+        width: 900px;
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    h2 { 
+        text-align: center;
+        align-items: center;
+        color: white;
+        position: relative;
+        letter-spacing: 0.8px;
+        text-shadow: rgb(0, 0, 0) 1px 0 20px;
+        left: 15%;
+        width: 1200px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+.benefits {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 130px;
+    flex-wrap: wrap;
     div {
-        width: 300px;
-        height:200px;
-        p {
-            width: 200px;
-            color: white;
-            letter-spacing: 0.3em;
-            text-align: center;
-            margin-left: 20px;
-        }
+        background-color: rgb(255, 247, 232 , 0.7);
+        width: 220px;
+        height: 250px;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 50px;
+    }
+    img {
+        margin-top: 36px;
+        width: 120px;
+        height: 120px;
+    }
+    p {
+        margin-top: 10px;
     }
 }
